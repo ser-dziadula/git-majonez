@@ -10,7 +10,7 @@
   339  git commit -m "Farewell changed"
   340  git remote add origin https://github.com/ser-dziadula/git-majonez.git
   341  git push -u origin master
-  342  git checkout -b "cs"
+  342  git checkout -b cs
   343  git log
   344  git reset --hard 47d2e
   345  git log
