@@ -1,0 +1,24 @@
+  330  mkdir git-majonez
+  331  cd git-majonez/
+  332  touch main.cpp
+  333  gedit main.cpp &
+  334  git init
+  335  git add main.cpp 
+  336  git commit -m "Initial commit"
+  337  git status
+  338  git add main.cpp 
+  339  git commit -m "Farewell changed"
+  340  git remote add origin https://github.com/ser-dziadula/git-majonez.git
+  341  git push -u origin master
+  342  git checkout -b "cs"
+  343  git log
+  344  git reset --hard 47d2e
+  345  git log
+  346  gedit main.cpp 
+  347  git add main.cpp 
+  348  git commit -m "Greetings"
+  349  git push origin cs
+  350  git checkout master
+  351  git merge cs
+  352  touch history.txt
+  353  history 24 >> history.txt 
